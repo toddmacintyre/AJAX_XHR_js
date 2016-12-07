@@ -1,4 +1,4 @@
-console.log('loading at:' Date.now());
+console.log('loading at:' + Date.now());
 
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function () {
