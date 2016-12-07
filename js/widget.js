@@ -16,7 +16,7 @@ xhr.onreadystatechange = function () {
     document.getElementById('employeeList').innerHTML = statusHTML;
   }
 };
-xhr.open('GET', '../data/employees.json');
+xhr.open('GET', '/data/employees.json');
 xhr.send();
 
 var xhr2 = new XMLHttpRequest();
@@ -37,5 +37,5 @@ xhr2.onreadystatechange = function () {
     document.getElementById('roomList').innerHTML = statusHTML;
   }
 };
-xhr2.open('GET', '../data/rooms.json');
+xhr2.open('GET', '/data/rooms.json');
 xhr2.send();
